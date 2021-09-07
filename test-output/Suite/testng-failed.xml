@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="DemoGuru.DeleteAccount">
+        <methods>
+          <include name="open"/>
+          <include name="deletedaccountbalance"/>
+          <include name="ministatement"/>
+          <include name="Deletecustomer"/>
+          <include name="deleteaccount"/>
+          <include name="customized"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- DemoGuru.DeleteAccount -->
+      <class name="DemoGuru.DeleteCustomer">
+        <methods>
+          <include name="close"/>
+          <include name="open"/>
+          <include name="customerdelete_withnoaccount"/>
+        </methods>
+      </class> <!-- DemoGuru.DeleteCustomer -->
+      <class name="DemoGuru.Newcustomer">
+        <methods>
+          <include name="addnewaccount"/>
+          <include name="newcustomer"/>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- DemoGuru.Newcustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
