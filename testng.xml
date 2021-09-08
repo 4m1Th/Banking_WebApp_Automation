@@ -3,12 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <!--    <class name="DemoGuru.Demoguru"/>
+   <!--  <class name="DemoGuru.Demoguru"/>
       <class name="DemoGuru.Newcustomer"/>
       <class name="DemoGuru.DeleteAccount"/> 
-      <class name="DemoGuru.DeleteCustomer"/>  -->
-      <class name="DemoGuru.Fundtransfer"/>
-
+      <class name="DemoGuru.DeleteCustomer"/> 
+      <class name="DemoGuru.Fundtransfer"/> -->
+	<class name="DemoGuru.Editcustomer"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

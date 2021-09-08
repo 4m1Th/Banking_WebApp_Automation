@@ -28,13 +28,13 @@ public class Fundtransfer {
 		
 		br.web(ur.url);
 	}
-	@AfterClass()
-	public void close() {
-		
-		br.driver.close();
-		br.driver.quit();
-	}
-	
+//	@AfterClass()
+//	public void close() {
+//		
+//		br.driver.close();
+//		br.driver.quit();
+//	}
+//	
 	@Test(priority=1)
 	public void login() {
 		
@@ -43,9 +43,9 @@ public class Fundtransfer {
 	@Test(priority=2)
 	public void creation() throws InterruptedException {
 	
-		keyfund.newcustomer1(br, "llbfcbd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "thsbsbfa@gvai.com", "anybody123");
+		keyfund.newcustomer1(br, "czbcxd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "tbfa@gvi.com", "anybody123");
 		keyfund.addnewaccount1(br);
-		keyfund.newcustomer2(br, "llvcmbd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "adgg@mvai.com", "anybody123");
+		keyfund.newcustomer2(br, "czvbxd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "zxaxcg@mzai.com", "anybody123");
 		keyfund.addnewaccount2(br);
 		System.out.println("Account id1:"+keydata.keywordaccid1);
 		System.out.println("Account id2:"+keydata.keywordaccid2);
@@ -108,18 +108,49 @@ public class Fundtransfer {
 		
 	}
 	
-	@Test(priority=7)
-	public void systembehaviour_whenmanager() {
+//	@Test(priority=7)
+//	public void systembehaviour_whenmanager() {
+//		br.driver.findElement(By.xpath(loc.fundtransfer)).click();
+//		br.driver.findElement(By.xpath(loc.payersaccount)).sendKeys(keydata.keywordaccid1);
+//		br.driver.findElement(By.xpath(loc.payeesaccount)).sendKeys(keydata.keywordaccid2);
+//		br.driver.findElement(By.xpath(loc.amount)).sendKeys("500");
+//		br.driver.findElement(By.xpath(loc.desc)).sendKeys("cash");
+//		br.driver.findElement(By.xpath(loc.submit)).click();
+//		String expected="You are not authorize to do fund transfer!!";
+//		String actual=br.driver.findElement(By.xpath(loc.fundverify)).getText();
+//		Assert.assertEquals(actual, expected);
+//	}
+	
+	@Test(priority=8)
+	public void fundtransfer_sameaccountno()  {
+		
+		br.driver.findElement(By.xpath(loc.fundtransfer)).click();
+		br.driver.findElement(By.xpath(loc.payersaccount)).sendKeys(keydata.keywordaccid1);
+		br.driver.findElement(By.xpath(loc.payeesaccount)).sendKeys(keydata.keywordaccid1);
+		br.driver.findElement(By.xpath(loc.amount)).sendKeys("200");
+		br.driver.findElement(By.xpath(loc.desc)).sendKeys("cash");
+		br.driver.findElement(By.xpath(loc.submit)).click();
+		String expected="Payers account No and Payees account No Must Not be Same!!!";
+		String actual=br.driver.switchTo().alert().getText();
+		Assert.assertEquals(actual, expected);
+		br.driver.switchTo().alert().accept();
+	}
+	
+	@Test(priority=9)
+	public void verifybalanceis_low() throws InterruptedException {
+		
 		br.driver.findElement(By.xpath(loc.fundtransfer)).click();
 		br.driver.findElement(By.xpath(loc.payersaccount)).sendKeys(keydata.keywordaccid1);
 		br.driver.findElement(By.xpath(loc.payeesaccount)).sendKeys(keydata.keywordaccid2);
-		br.driver.findElement(By.xpath(loc.amount)).sendKeys("500");
+		br.driver.findElement(By.xpath(loc.amount)).sendKeys("15100");
 		br.driver.findElement(By.xpath(loc.desc)).sendKeys("cash");
 		br.driver.findElement(By.xpath(loc.submit)).click();
-		String expected="You are not authorize to do fund transfer!!";
-		String actual=br.driver.findElement(By.xpath(loc.fundverify)).getText();
+		String expected="Transfer Failed. Account Balance low!!";
+		String actual=br.driver.switchTo().alert().getText();
 		Assert.assertEquals(actual, expected);
+		br.driver.switchTo().alert().accept();
 	}
+	
 	
 //	
 //	@Test(priority=4)

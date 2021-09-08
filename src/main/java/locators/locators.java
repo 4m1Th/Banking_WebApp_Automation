@@ -79,5 +79,10 @@ public class locators {
 	public String amount="//input[@name=\"ammount\"]";
 	public String desc="//input[@name=\"desc\"]";
 	public String fundverify="//p[@class=\"heading3\"]";
+	
+	
+	//Deposit
+	public String deposit="//a[@href=\"DepositInput.php\"]";
+	public String accountno="//input[@name=\"accountno\"]";
 
 }
