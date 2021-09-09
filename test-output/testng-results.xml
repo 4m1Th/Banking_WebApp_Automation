@@ -1,33 +1,550 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="48" passed="45" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-08T13:24:14 IST" name="Default suite" finished-at="2021-09-08T13:24:34 IST" duration-ms="20399">
+  <suite started-at="2021-09-09T15:15:53 IST" name="Suite" finished-at="2021-09-09T15:19:32 IST" duration-ms="219582">
     <groups>
     </groups>
-    <test started-at="2021-09-08T13:24:14 IST" name="Default test" finished-at="2021-09-08T13:24:34 IST" duration-ms="20399">
-      <class name="DemoGuru.Deposit">
-        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Deposit@6e4784bc]" started-at="2021-09-08T13:24:14 IST" name="open" finished-at="2021-09-08T13:24:21 IST" duration-ms="7810" status="PASS">
+    <test started-at="2021-09-09T15:15:53 IST" name="Test" finished-at="2021-09-09T15:19:32 IST" duration-ms="219582">
+      <class name="DemoGuru.Editcustomer">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Editcustomer@61df66b6]" started-at="2021-09-09T15:18:08 IST" name="open" finished-at="2021-09-09T15:18:14 IST" duration-ms="5263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="login()[pri:1, instance:DemoGuru.Deposit@6e4784bc]" started-at="2021-09-08T13:24:22 IST" name="login" finished-at="2021-09-08T13:24:30 IST" duration-ms="8400" status="PASS">
+        <test-method signature="login()[pri:1, instance:DemoGuru.Editcustomer@61df66b6]" started-at="2021-09-09T15:18:14 IST" name="login" finished-at="2021-09-09T15:18:15 IST" duration-ms="1574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="deposit()[pri:2, instance:DemoGuru.Deposit@6e4784bc]" started-at="2021-09-08T13:24:30 IST" name="deposit" finished-at="2021-09-08T13:24:32 IST" duration-ms="2002" status="PASS">
+        <test-method signature="newcustomer1()[pri:2, instance:DemoGuru.Editcustomer@61df66b6]" started-at="2021-09-09T15:18:15 IST" name="newcustomer1" finished-at="2021-09-09T15:18:18 IST" duration-ms="2910" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deposit -->
-        <test-method signature="refresh()[pri:3, instance:DemoGuru.Deposit@6e4784bc]" started-at="2021-09-08T13:24:32 IST" name="refresh" finished-at="2021-09-08T13:24:33 IST" duration-ms="1405" status="PASS">
+        </test-method> <!-- newcustomer1 -->
+        <test-method signature="verify_editcustomer()[pri:3, instance:DemoGuru.Editcustomer@61df66b6]" started-at="2021-09-09T15:18:18 IST" name="verify_editcustomer" finished-at="2021-09-09T15:18:20 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_editcustomer -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Editcustomer@61df66b6]" started-at="2021-09-09T15:18:20 IST" name="close" finished-at="2021-09-09T15:18:21 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.Editcustomer -->
+      <class name="DemoGuru.Newcustomer">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Newcustomer@619713e5]" started-at="2021-09-09T15:16:21 IST" name="open" finished-at="2021-09-09T15:16:26 IST" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.Newcustomer@619713e5]" started-at="2021-09-09T15:16:26 IST" name="login" finished-at="2021-09-09T15:16:28 IST" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="newcustomer()[pri:2, instance:DemoGuru.Newcustomer@619713e5]" started-at="2021-09-09T15:16:28 IST" name="newcustomer" finished-at="2021-09-09T15:16:31 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcustomer -->
+        <test-method signature="addnewaccount()[pri:3, instance:DemoGuru.Newcustomer@619713e5]" started-at="2021-09-09T15:16:31 IST" name="addnewaccount" finished-at="2021-09-09T15:16:34 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewaccount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Newcustomer@619713e5]" started-at="2021-09-09T15:16:34 IST" name="close" finished-at="2021-09-09T15:16:34 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.Newcustomer -->
+      <class name="DemoGuru.Withmini">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:18:39 IST" name="open" finished-at="2021-09-09T15:18:45 IST" duration-ms="6022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:18:45 IST" name="login" finished-at="2021-09-09T15:18:47 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifywithdrawal()[pri:2, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:18:47 IST" name="verifywithdrawal" finished-at="2021-09-09T15:18:53 IST" duration-ms="6679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithdrawal -->
+        <test-method signature="verifybalancelow()[pri:3, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:18:53 IST" name="verifybalancelow" finished-at="2021-09-09T15:18:55 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybalancelow -->
+        <test-method signature="verifyministatement()[pri:4, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:18:55 IST" name="verifyministatement" finished-at="2021-09-09T15:18:58 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyministatement -->
+        <test-method signature="verifybalance()[pri:5, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:18:58 IST" name="verifybalance" finished-at="2021-09-09T15:19:00 IST" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybalance -->
+        <test-method signature="verifycustomizedstatement()[pri:6, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:19:00 IST" name="verifycustomizedstatement" finished-at="2021-09-09T15:19:03 IST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycustomizedstatement -->
+        <test-method signature="verifycusstatementwithhigherfromdate()[pri:7, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:19:03 IST" name="verifycusstatementwithhigherfromdate" finished-at="2021-09-09T15:19:06 IST" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycusstatementwithhigherfromdate -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Withmini@59fd97a8]" started-at="2021-09-09T15:19:06 IST" name="close" finished-at="2021-09-09T15:19:07 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.Withmini -->
+      <class name="DemoGuru.last">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:07 IST" name="open" finished-at="2021-09-09T15:19:12 IST" duration-ms="5858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:12 IST" name="login" finished-at="2021-09-09T15:19:15 IST" duration-ms="2197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifywithdrawal()[pri:2, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:15 IST" name="verifywithdrawal" finished-at="2021-09-09T15:19:21 IST" duration-ms="6139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifywithdrawal -->
+        <test-method signature="verifycustomercanlogin()[pri:3, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:21 IST" name="verifycustomercanlogin" finished-at="2021-09-09T15:19:23 IST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycustomercanlogin -->
+        <test-method signature="cont()[pri:4, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:23 IST" name="cont" finished-at="2021-09-09T15:19:27 IST" duration-ms="3963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cont -->
+        <test-method signature="logout()[pri:5, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:27 IST" name="logout" finished-at="2021-09-09T15:19:28 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.last@f5ac9e4]" started-at="2021-09-09T15:19:28 IST" name="close" finished-at="2021-09-09T15:19:32 IST" duration-ms="4762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.last -->
+      <class name="DemoGuru.DeleteCustomer">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:16:58 IST" name="open" finished-at="2021-09-09T15:17:04 IST" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:17:04 IST" name="login" finished-at="2021-09-09T15:17:05 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deletecustomer_accountexist()[pri:2, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:17:05 IST" name="deletecustomer_accountexist" finished-at="2021-09-09T15:17:08 IST" duration-ms="2145" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1A8J2C', ip: '192.168.110.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:32597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d114c5725e5417781cd52ece6ab7c1
+*** Element info: {Using=xpath, value=//p[@class="heading3"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1A8J2C', ip: '192.168.110.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:32597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d114c5725e5417781cd52ece6ab7c1
+*** Element info: {Using=xpath, value=//p[@class="heading3"]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at utility.keyword.newcustomer(keyword.java:40)
+at DemoGuru.DeleteCustomer.deletecustomer_accountexist(DeleteCustomer.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer_accountexist -->
+        <test-method signature="customerdelete_withnoaccount()[pri:3, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:17:08 IST" name="customerdelete_withnoaccount" finished-at="2021-09-09T15:17:09 IST" duration-ms="1639" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1A8J2C', ip: '192.168.110.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:32597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d114c5725e5417781cd52ece6ab7c1
+*** Element info: {Using=xpath, value=//*[@id="customer"]/tbody/tr[4]/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1A8J2C', ip: '192.168.110.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:32597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d114c5725e5417781cd52ece6ab7c1
+*** Element info: {Using=xpath, value=//*[@id="customer"]/tbody/tr[4]/td[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at DemoGuru.DeleteCustomer.customerdelete_withnoaccount(DeleteCustomer.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerdelete_withnoaccount -->
+        <test-method signature="customercantbeedited_ifnotexist()[pri:4, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:17:09 IST" name="customercantbeedited_ifnotexist" finished-at="2021-09-09T15:17:11 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customercantbeedited_ifnotexist -->
+        <test-method signature="deletecustomer_whichdoesnotexist()[pri:5, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:17:11 IST" name="deletecustomer_whichdoesnotexist" finished-at="2021-09-09T15:17:12 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer_whichdoesnotexist -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.DeleteCustomer@2ef3eef9]" started-at="2021-09-09T15:17:12 IST" name="close" finished-at="2021-09-09T15:17:13 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.DeleteCustomer -->
+      <class name="DemoGuru.DeleteAccount">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:34 IST" name="open" finished-at="2021-09-09T15:16:40 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:40 IST" name="login" finished-at="2021-09-09T15:16:41 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteaccount()[pri:2, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:41 IST" name="deleteaccount" finished-at="2021-09-09T15:16:46 IST" duration-ms="4471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteaccount -->
+        <test-method signature="ministatement()[pri:3, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:46 IST" name="ministatement" finished-at="2021-09-09T15:16:48 IST" duration-ms="2429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ministatement -->
+        <test-method signature="deletedaccountbalance()[pri:4, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:48 IST" name="deletedaccountbalance" finished-at="2021-09-09T15:16:50 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletedaccountbalance -->
+        <test-method signature="customized()[pri:5, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:50 IST" name="customized" finished-at="2021-09-09T15:16:53 IST" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customized -->
+        <test-method signature="Deletecustomer()[pri:6, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:53 IST" name="Deletecustomer" finished-at="2021-09-09T15:16:58 IST" duration-ms="4992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deletecustomer -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.DeleteAccount@7722c3c3]" started-at="2021-09-09T15:16:58 IST" name="close" finished-at="2021-09-09T15:16:58 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.DeleteAccount -->
+      <class name="DemoGuru.Fundtransfer">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:13 IST" name="open" finished-at="2021-09-09T15:17:19 IST" duration-ms="5943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:19 IST" name="login" finished-at="2021-09-09T15:17:21 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="creation()[pri:2, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:21 IST" name="creation" finished-at="2021-09-09T15:17:31 IST" duration-ms="9495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creation -->
+        <test-method signature="fundtransfer()[pri:3, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:31 IST" name="fundtransfer" finished-at="2021-09-09T15:17:34 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundtransfer -->
+        <test-method signature="refresh()[pri:4, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:34 IST" name="refresh" finished-at="2021-09-09T15:17:36 IST" duration-ms="1838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- refresh -->
-        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Deposit@6e4784bc]" started-at="2021-09-08T13:24:33 IST" name="close" finished-at="2021-09-08T13:24:34 IST" duration-ms="701" status="PASS">
+        <test-method signature="verifytransfer()[pri:5, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:36 IST" name="verifytransfer" finished-at="2021-09-09T15:17:46 IST" duration-ms="10070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytransfer -->
+        <test-method signature="systembehaviour()[pri:6, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:46 IST" name="systembehaviour" finished-at="2021-09-09T15:17:57 IST" duration-ms="10910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systembehaviour -->
+        <test-method signature="fundtransfer_sameaccountno()[pri:8, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:17:57 IST" name="fundtransfer_sameaccountno" finished-at="2021-09-09T15:18:00 IST" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundtransfer_sameaccountno -->
+        <test-method signature="verifybalanceis_low()[pri:9, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:18:00 IST" name="verifybalanceis_low" finished-at="2021-09-09T15:18:04 IST" duration-ms="3805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybalanceis_low -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Fundtransfer@291ae]" started-at="2021-09-09T15:18:04 IST" name="close" finished-at="2021-09-09T15:18:08 IST" duration-ms="4791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.Fundtransfer -->
+      <class name="DemoGuru.Deposit">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Deposit@50eac852]" started-at="2021-09-09T15:18:21 IST" name="open" finished-at="2021-09-09T15:18:28 IST" duration-ms="7602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login()[pri:1, instance:DemoGuru.Deposit@50eac852]" started-at="2021-09-09T15:18:28 IST" name="login" finished-at="2021-09-09T15:18:34 IST" duration-ms="5175" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1A8J2C', ip: '192.168.110.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:23507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 266abc6d5566991449866e09baa694e4
+*** Element info: {Using=xpath, value=//*[@id="customer"]/tbody/tr[4]/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I1A8J2C', ip: '192.168.110.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:23507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 266abc6d5566991449866e09baa694e4
+*** Element info: {Using=xpath, value=//*[@id="customer"]/tbody/tr[4]/td[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at utility.keywordforfund.newcustomer1(keywordforfund.java:32)
+at DemoGuru.Deposit.login(Deposit.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deposit()[pri:2, instance:DemoGuru.Deposit@50eac852]" started-at="2021-09-09T15:18:34 IST" name="deposit" finished-at="2021-09-09T15:18:36 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method signature="refresh()[pri:3, instance:DemoGuru.Deposit@50eac852]" started-at="2021-09-09T15:18:36 IST" name="refresh" finished-at="2021-09-09T15:18:38 IST" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Deposit@50eac852]" started-at="2021-09-09T15:18:38 IST" name="close" finished-at="2021-09-09T15:18:39 IST" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- DemoGuru.Deposit -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="DemoGuru.Demoguru">
+        <test-method is-config="true" signature="open()[pri:0, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:15:53 IST" name="open" finished-at="2021-09-09T15:15:59 IST" duration-ms="6386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="invalid(java.lang.String,java.lang.String)[pri:1, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:15:59 IST" name="invalid" data-provider="LoginTesting" finished-at="2021-09-09T15:16:02 IST" duration-ms="2344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[any]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid -->
+        <test-method signature="invalid(java.lang.String,java.lang.String)[pri:1, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:02 IST" name="invalid" data-provider="LoginTesting" finished-at="2021-09-09T15:16:06 IST" duration-ms="4114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr350302]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gigjh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid -->
+        <test-method signature="invalid(java.lang.String,java.lang.String)[pri:1, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:06 IST" name="invalid" data-provider="LoginTesting" finished-at="2021-09-09T15:16:10 IST" duration-ms="3826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kjfjbej]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lnklnl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid -->
+        <test-method signature="login()[pri:2, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:10 IST" name="login" finished-at="2021-09-09T15:16:14 IST" duration-ms="4821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="changepassword(java.lang.String,java.lang.String)[pri:3, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:14 IST" name="changepassword" data-provider="ChangePassword" finished-at="2021-09-09T15:16:15 IST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[any123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changepassword -->
+        <test-method signature="changepassword(java.lang.String,java.lang.String)[pri:3, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:15 IST" name="changepassword" data-provider="ChangePassword" finished-at="2021-09-09T15:16:16 IST" duration-ms="972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changepassword -->
+        <test-method signature="changepassword(java.lang.String,java.lang.String)[pri:3, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:16 IST" name="changepassword" data-provider="ChangePassword" finished-at="2021-09-09T15:16:17 IST" duration-ms="571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changepassword -->
+        <test-method signature="newlogin()[pri:4, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:17 IST" name="newlogin" finished-at="2021-09-09T15:16:21 IST" duration-ms="3966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newlogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DemoGuru.Demoguru@7ed7259e]" started-at="2021-09-09T15:16:21 IST" name="close" finished-at="2021-09-09T15:16:21 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DemoGuru.Demoguru -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

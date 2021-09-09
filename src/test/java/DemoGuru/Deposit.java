@@ -38,7 +38,7 @@ public class Deposit {
 	public void login() {
 		
 		key.newlogin(br);
-		key.newcustomer1(br, "czcxn", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "bfa@gvi.com", "anybody123");
+		key.newcustomer1(br, "czcxikn", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "bfa@gikvi.com", "anybody123");
 		key.addnewaccount1(br);
 	}
 	@Test(priority=2)

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoGuru.Deposit">
+      <class name="DemoGuru.last">
         <methods>
-          <include name="login"/>
           <include name="open"/>
-          <include name="deposit"/>
+          <include name="verifycustomercanlogin"/>
+          <include name="cont"/>
+          <include name="verifywithdrawal"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- DemoGuru.Deposit -->
+      </class> <!-- DemoGuru.last -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

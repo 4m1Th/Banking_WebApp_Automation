@@ -28,13 +28,13 @@ public class Fundtransfer {
 		
 		br.web(ur.url);
 	}
-//	@AfterClass()
-//	public void close() {
-//		
-//		br.driver.close();
-//		br.driver.quit();
-//	}
-//	
+	@AfterClass()
+	public void close() {
+		
+		br.driver.close();
+		br.driver.quit();
+	}
+	
 	@Test(priority=1)
 	public void login() {
 		
@@ -43,9 +43,9 @@ public class Fundtransfer {
 	@Test(priority=2)
 	public void creation() throws InterruptedException {
 	
-		keyfund.newcustomer1(br, "czbcxd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "tbfa@gvi.com", "anybody123");
+		keyfund.newcustomer1(br, "czikxd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "tbfa@gviki.com", "anybody123");
 		keyfund.addnewaccount1(br);
-		keyfund.newcustomer2(br, "czvbxd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "zxaxcg@mzai.com", "anybody123");
+		keyfund.newcustomer2(br, "cikvbxd", "11/06/1254", "kakod", "kakod", "kakod", "670662", "5454855447", "zxaxcg@miki.com", "anybody123");
 		keyfund.addnewaccount2(br);
 		System.out.println("Account id1:"+keydata.keywordaccid1);
 		System.out.println("Account id2:"+keydata.keywordaccid2);

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\AloneHunter\AppData\Local\Temp\testng-eclipse-1211612411\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>F:\Eclipseworkspace\DemoGuru\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,31 +93,265 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">48 methods, 3 failed,   45 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteCustomer" class="method navigator-link" hash-for-method="customerdelete_withnoaccount">customerdelete_withnoaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteCustomer" class="method navigator-link" hash-for-method="deletecustomer_accountexist">deletecustomer_accountexist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Deposit" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DemoGuru.Deposit" class="method navigator-link" hash-for-method="deposit">deposit</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteAccount" class="method navigator-link" hash-for-method="Deletecustomer">Deletecustomer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DemoGuru.Deposit" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Newcustomer" class="method navigator-link" hash-for-method="addnewaccount">addnewaccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DemoGuru.Deposit" class="method navigator-link" hash-for-method="refresh">refresh</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="changepassword(123456, 123456)">changepassword(123456, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="changepassword(any123, 123456)">changepassword(any123, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="changepassword(123456, 123456$)">changepassword(123456, 123456$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.last" class="method navigator-link" hash-for-method="cont">cont</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="creation">creation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteCustomer" class="method navigator-link" hash-for-method="customercantbeedited_ifnotexist">customercantbeedited_ifnotexist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteAccount" class="method navigator-link" hash-for-method="customized">customized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteAccount" class="method navigator-link" hash-for-method="deleteaccount">deleteaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteCustomer" class="method navigator-link" hash-for-method="deletecustomer_whichdoesnotexist">deletecustomer_whichdoesnotexist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteAccount" class="method navigator-link" hash-for-method="deletedaccountbalance">deletedaccountbalance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Deposit" class="method navigator-link" hash-for-method="deposit">deposit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="fundtransfer">fundtransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="fundtransfer_sameaccountno">fundtransfer_sameaccountno</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="invalid(any, 123456$)">invalid(any, 123456$)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="invalid(mngr350302, gigjh)">invalid(mngr350302, gigjh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="invalid(kjfjbej, lnklnl)">invalid(kjfjbej, lnklnl)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Newcustomer" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteAccount" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Editcustomer" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteCustomer" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.last" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.last" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.DeleteAccount" class="method navigator-link" hash-for-method="ministatement">ministatement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Newcustomer" class="method navigator-link" hash-for-method="newcustomer">newcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Editcustomer" class="method navigator-link" hash-for-method="newcustomer1">newcustomer1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Demoguru" class="method navigator-link" hash-for-method="newlogin">newlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="refresh">refresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Deposit" class="method navigator-link" hash-for-method="refresh">refresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="systembehaviour">systembehaviour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Editcustomer" class="method navigator-link" hash-for-method="verify_editcustomer">verify_editcustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="verifybalance">verifybalance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="verifybalanceis_low">verifybalanceis_low</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="verifybalancelow">verifybalancelow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="verifycusstatementwithhigherfromdate">verifycusstatementwithhigherfromdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.last" class="method navigator-link" hash-for-method="verifycustomercanlogin">verifycustomercanlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="verifycustomizedstatement">verifycustomizedstatement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="verifyministatement">verifyministatement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Fundtransfer" class="method navigator-link" hash-for-method="verifytransfer">verifytransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.Withmini" class="method navigator-link" hash-for-method="verifywithdrawal">verifywithdrawal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoGuru.last" class="method navigator-link" hash-for-method="verifywithdrawal">verifywithdrawal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,8 +362,331 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">DemoGuru.Deposit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-I1A8J2C&apos;, ip: &apos;192.168.110.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:23507}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 266abc6d5566991449866e09baa694e4
+*** Element info: {Using=xpath, value=//*[@id=&quot;customer&quot;]/tbody/tr[4]/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.keywordforfund.newcustomer1(keywordforfund.java:32)
+	at DemoGuru.Deposit.login(Deposit.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">DemoGuru.DeleteCustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerdelete_withnoaccount">
+                  </a> <!-- customerdelete_withnoaccount -->
+                  <span class="method-name">customerdelete_withnoaccount</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-I1A8J2C&apos;, ip: &apos;192.168.110.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:32597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d114c5725e5417781cd52ece6ab7c1
+*** Element info: {Using=xpath, value=//*[@id=&quot;customer&quot;]/tbody/tr[4]/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at DemoGuru.DeleteCustomer.customerdelete_withnoaccount(DeleteCustomer.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletecustomer_accountexist">
+                  </a> <!-- deletecustomer_accountexist -->
+                  <span class="method-name">deletecustomer_accountexist</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=93.0.4577.63): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-I1A8J2C&apos;, ip: &apos;192.168.110.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ALONEH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:32597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d114c5725e5417781cd52ece6ab7c1
+*** Element info: {Using=xpath, value=//p[@class=&quot;heading3&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.keyword.newcustomer(keyword.java:40)
+	at DemoGuru.DeleteCustomer.deletecustomer_accountexist(DeleteCustomer.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.Newcustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addnewaccount">
+                  </a> <!-- addnewaccount -->
+                  <span class="method-name">addnewaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newcustomer">
+                  </a> <!-- newcustomer -->
+                  <span class="method-name">newcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.Editcustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newcustomer1">
+                  </a> <!-- newcustomer1 -->
+                  <span class="method-name">newcustomer1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_editcustomer">
+                  </a> <!-- verify_editcustomer -->
+                  <span class="method-name">verify_editcustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.last</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cont">
+                  </a> <!-- cont -->
+                  <span class="method-name">cont</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycustomercanlogin">
+                  </a> <!-- verifycustomercanlogin -->
+                  <span class="method-name">verifycustomercanlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifywithdrawal">
+                  </a> <!-- verifywithdrawal -->
+                  <span class="method-name">verifywithdrawal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.DeleteAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Deletecustomer">
+                  </a> <!-- Deletecustomer -->
+                  <span class="method-name">Deletecustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customized">
+                  </a> <!-- customized -->
+                  <span class="method-name">customized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteaccount">
+                  </a> <!-- deleteaccount -->
+                  <span class="method-name">deleteaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletedaccountbalance">
+                  </a> <!-- deletedaccountbalance -->
+                  <span class="method-name">deletedaccountbalance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ministatement">
+                  </a> <!-- ministatement -->
+                  <span class="method-name">ministatement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.Demoguru</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changepassword(123456, 123456)">
+                  </a> <!-- changepassword(123456, 123456) -->
+                  <span class="method-name">changepassword</span>
+                  <span class="parameters">(123456, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changepassword(any123, 123456)">
+                  </a> <!-- changepassword(any123, 123456) -->
+                  <span class="method-name">changepassword</span>
+                  <span class="parameters">(any123, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changepassword(123456, 123456$)">
+                  </a> <!-- changepassword(123456, 123456$) -->
+                  <span class="method-name">changepassword</span>
+                  <span class="parameters">(123456, 123456$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid(any, 123456$)">
+                  </a> <!-- invalid(any, 123456$) -->
+                  <span class="method-name">invalid</span>
+                  <span class="parameters">(any, 123456$)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid(mngr350302, gigjh)">
+                  </a> <!-- invalid(mngr350302, gigjh) -->
+                  <span class="method-name">invalid</span>
+                  <span class="parameters">(mngr350302, gigjh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid(kjfjbej, lnklnl)">
+                  </a> <!-- invalid(kjfjbej, lnklnl) -->
+                  <span class="method-name">invalid</span>
+                  <span class="parameters">(kjfjbej, lnklnl)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newlogin">
+                  </a> <!-- newlogin -->
+                  <span class="method-name">newlogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">DemoGuru.Deposit</span>
@@ -140,6 +697,42 @@
                   <a name="deposit">
                   </a> <!-- deposit -->
                   <span class="method-name">deposit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="refresh">
+                  </a> <!-- refresh -->
+                  <span class="method-name">refresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.Fundtransfer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="creation">
+                  </a> <!-- creation -->
+                  <span class="method-name">creation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundtransfer">
+                  </a> <!-- fundtransfer -->
+                  <span class="method-name">fundtransfer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fundtransfer_sameaccountno">
+                  </a> <!-- fundtransfer_sameaccountno -->
+                  <span class="method-name">fundtransfer_sameaccountno</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -156,123 +749,692 @@
                   <span class="method-name">refresh</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="systembehaviour">
+                  </a> <!-- systembehaviour -->
+                  <span class="method-name">systembehaviour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybalanceis_low">
+                  </a> <!-- verifybalanceis_low -->
+                  <span class="method-name">verifybalanceis_low</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytransfer">
+                  </a> <!-- verifytransfer -->
+                  <span class="method-name">verifytransfer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.DeleteCustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customercantbeedited_ifnotexist">
+                  </a> <!-- customercantbeedited_ifnotexist -->
+                  <span class="method-name">customercantbeedited_ifnotexist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletecustomer_whichdoesnotexist">
+                  </a> <!-- deletecustomer_whichdoesnotexist -->
+                  <span class="method-name">deletecustomer_whichdoesnotexist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoGuru.Withmini</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybalance">
+                  </a> <!-- verifybalance -->
+                  <span class="method-name">verifybalance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybalancelow">
+                  </a> <!-- verifybalancelow -->
+                  <span class="method-name">verifybalancelow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycusstatementwithhigherfromdate">
+                  </a> <!-- verifycusstatementwithhigherfromdate -->
+                  <span class="method-name">verifycusstatementwithhigherfromdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycustomizedstatement">
+                  </a> <!-- verifycustomizedstatement -->
+                  <span class="method-name">verifycustomizedstatement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyministatement">
+                  </a> <!-- verifyministatement -->
+                  <span class="method-name">verifyministatement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifywithdrawal">
+                  </a> <!-- verifywithdrawal -->
+                  <span class="method-name">verifywithdrawal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\AloneHunter\AppData\Local\Temp\testng-eclipse-1211612411\testng-customsuite.xml</span>
+            <span class="header-content">F:\Eclipseworkspace\DemoGuru\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;DemoGuru.Demoguru&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.Newcustomer&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.DeleteAccount&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.DeleteCustomer&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.Fundtransfer&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.Editcustomer&quot;/&gt;
       &lt;class name=&quot;DemoGuru.Deposit&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.Withmini&quot;/&gt;
+      &lt;class name=&quot;DemoGuru.last&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(48);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'DemoGuru.Deposit')
-data.setCell(0, 3, 8400);
+data.setCell(0, 1, 'systembehaviour')
+data.setCell(0, 2, 'DemoGuru.Fundtransfer')
+data.setCell(0, 3, 10910);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deposit')
-data.setCell(1, 2, 'DemoGuru.Deposit')
-data.setCell(1, 3, 2002);
+data.setCell(1, 1, 'verifytransfer')
+data.setCell(1, 2, 'DemoGuru.Fundtransfer')
+data.setCell(1, 3, 10070);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'refresh')
-data.setCell(2, 2, 'DemoGuru.Deposit')
-data.setCell(2, 3, 1405);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 1, 'creation')
+data.setCell(2, 2, 'DemoGuru.Fundtransfer')
+data.setCell(2, 3, 9495);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifywithdrawal')
+data.setCell(3, 2, 'DemoGuru.Withmini')
+data.setCell(3, 3, 6679);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifywithdrawal')
+data.setCell(4, 2, 'DemoGuru.last')
+data.setCell(4, 3, 6139);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'DemoGuru.Deposit')
+data.setCell(5, 3, 5175);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Deletecustomer')
+data.setCell(6, 2, 'DemoGuru.DeleteAccount')
+data.setCell(6, 3, 4992);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'DemoGuru.Demoguru')
+data.setCell(7, 3, 4821);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deleteaccount')
+data.setCell(8, 2, 'DemoGuru.DeleteAccount')
+data.setCell(8, 3, 4471);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invalid')
+data.setCell(9, 2, 'DemoGuru.Demoguru')
+data.setCell(9, 3, 4114);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'newlogin')
+data.setCell(10, 2, 'DemoGuru.Demoguru')
+data.setCell(10, 3, 3966);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'cont')
+data.setCell(11, 2, 'DemoGuru.last')
+data.setCell(11, 3, 3963);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invalid')
+data.setCell(12, 2, 'DemoGuru.Demoguru')
+data.setCell(12, 3, 3826);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifybalanceis_low')
+data.setCell(13, 2, 'DemoGuru.Fundtransfer')
+data.setCell(13, 3, 3805);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'fundtransfer_sameaccountno')
+data.setCell(14, 2, 'DemoGuru.Fundtransfer')
+data.setCell(14, 3, 3143);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'newcustomer')
+data.setCell(15, 2, 'DemoGuru.Newcustomer')
+data.setCell(15, 3, 2970);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyministatement')
+data.setCell(16, 2, 'DemoGuru.Withmini')
+data.setCell(16, 3, 2964);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'fundtransfer')
+data.setCell(17, 2, 'DemoGuru.Fundtransfer')
+data.setCell(17, 3, 2955);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'newcustomer1')
+data.setCell(18, 2, 'DemoGuru.Editcustomer')
+data.setCell(18, 3, 2910);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifycustomizedstatement')
+data.setCell(19, 2, 'DemoGuru.Withmini')
+data.setCell(19, 3, 2813);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'customized')
+data.setCell(20, 2, 'DemoGuru.DeleteAccount')
+data.setCell(20, 3, 2701);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifycusstatementwithhigherfromdate')
+data.setCell(21, 2, 'DemoGuru.Withmini')
+data.setCell(21, 3, 2474);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'deposit')
+data.setCell(22, 2, 'DemoGuru.Deposit')
+data.setCell(22, 3, 2469);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ministatement')
+data.setCell(23, 2, 'DemoGuru.DeleteAccount')
+data.setCell(23, 3, 2429);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifycustomercanlogin')
+data.setCell(24, 2, 'DemoGuru.last')
+data.setCell(24, 3, 2357);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'invalid')
+data.setCell(25, 2, 'DemoGuru.Demoguru')
+data.setCell(25, 3, 2344);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'login')
+data.setCell(26, 2, 'DemoGuru.last')
+data.setCell(26, 3, 2197);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifybalance')
+data.setCell(27, 2, 'DemoGuru.Withmini')
+data.setCell(27, 3, 2188);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'deletecustomer_accountexist')
+data.setCell(28, 2, 'DemoGuru.DeleteCustomer')
+data.setCell(28, 3, 2145);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'deletedaccountbalance')
+data.setCell(29, 2, 'DemoGuru.DeleteAccount')
+data.setCell(29, 3, 2102);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'login')
+data.setCell(30, 2, 'DemoGuru.Fundtransfer')
+data.setCell(30, 3, 2092);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'addnewaccount')
+data.setCell(31, 2, 'DemoGuru.Newcustomer')
+data.setCell(31, 3, 2064);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'login')
+data.setCell(32, 2, 'DemoGuru.Newcustomer')
+data.setCell(32, 3, 1985);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifybalancelow')
+data.setCell(33, 2, 'DemoGuru.Withmini')
+data.setCell(33, 3, 1953);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'login')
+data.setCell(34, 2, 'DemoGuru.Withmini')
+data.setCell(34, 3, 1944);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verify_editcustomer')
+data.setCell(35, 2, 'DemoGuru.Editcustomer')
+data.setCell(35, 3, 1900);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'refresh')
+data.setCell(36, 2, 'DemoGuru.Fundtransfer')
+data.setCell(36, 3, 1838);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'login')
+data.setCell(37, 2, 'DemoGuru.DeleteAccount')
+data.setCell(37, 3, 1832);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'refresh')
+data.setCell(38, 2, 'DemoGuru.Deposit')
+data.setCell(38, 3, 1794);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'deletecustomer_whichdoesnotexist')
+data.setCell(39, 2, 'DemoGuru.DeleteCustomer')
+data.setCell(39, 3, 1759);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'login')
+data.setCell(40, 2, 'DemoGuru.DeleteCustomer')
+data.setCell(40, 3, 1717);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'customerdelete_withnoaccount')
+data.setCell(41, 2, 'DemoGuru.DeleteCustomer')
+data.setCell(41, 3, 1639);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'login')
+data.setCell(42, 2, 'DemoGuru.Editcustomer')
+data.setCell(42, 3, 1574);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'customercantbeedited_ifnotexist')
+data.setCell(43, 2, 'DemoGuru.DeleteCustomer')
+data.setCell(43, 3, 1443);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'changepassword')
+data.setCell(44, 2, 'DemoGuru.Demoguru')
+data.setCell(44, 3, 972);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'changepassword')
+data.setCell(45, 2, 'DemoGuru.Demoguru')
+data.setCell(45, 3, 961);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'changepassword')
+data.setCell(46, 2, 'DemoGuru.Demoguru')
+data.setCell(46, 3, 571);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'logout')
+data.setCell(47, 2, 'DemoGuru.last')
+data.setCell(47, 3, 513);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">DemoGuru.Deposit</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">DemoGuru.Demoguru</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">open</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">invalid(any, 123456$)</span>
+                <span class="method-start">6429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalid(mngr350302, gigjh)</span>
+                <span class="method-start">8779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalid(kjfjbej, lnklnl)</span>
+                <span class="method-start">12895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">7836 ms</span>
+                <span class="method-start">16726 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">deposit</span>
-                <span class="method-start">16244 ms</span>
+                <span class="method-name">changepassword(any123, 123456)</span>
+                <span class="method-start">21549 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">refresh</span>
-                <span class="method-start">18248 ms</span>
+                <span class="method-name">changepassword(123456, 123456$)</span>
+                <span class="method-start">22516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changepassword(123456, 123456)</span>
+                <span class="method-start">23490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newlogin</span>
+                <span class="method-start">24064 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">close</span>
-                <span class="method-start">19656 ms</span>
+                <span class="method-start">28032 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.Newcustomer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">28252 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">33592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newcustomer</span>
+                <span class="method-start">35579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addnewaccount</span>
+                <span class="method-start">38551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">40616 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.DeleteAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">41394 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">46664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteaccount</span>
+                <span class="method-start">48498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ministatement</span>
+                <span class="method-start">52974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletedaccountbalance</span>
+                <span class="method-start">55405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customized</span>
+                <span class="method-start">57509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Deletecustomer</span>
+                <span class="method-start">60212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">65206 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.DeleteCustomer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">65437 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">70838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deletecustomer_accountexist</span>
+                <span class="method-start">72560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">customerdelete_withnoaccount</span>
+                <span class="method-start">74718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customercantbeedited_ifnotexist</span>
+                <span class="method-start">76362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletecustomer_whichdoesnotexist</span>
+                <span class="method-start">77807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">79567 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.Fundtransfer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">80462 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">86405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">creation</span>
+                <span class="method-start">88499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fundtransfer</span>
+                <span class="method-start">97996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">refresh</span>
+                <span class="method-start">100952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytransfer</span>
+                <span class="method-start">102792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">systembehaviour</span>
+                <span class="method-start">112869 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fundtransfer_sameaccountno</span>
+                <span class="method-start">123783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifybalanceis_low</span>
+                <span class="method-start">126931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">130738 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.Editcustomer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">135531 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">140794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newcustomer1</span>
+                <span class="method-start">142372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_editcustomer</span>
+                <span class="method-start">145284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">147184 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.Deposit</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">148003 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login</span>
+                <span class="method-start">155605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deposit</span>
+                <span class="method-start">160782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">refresh</span>
+                <span class="method-start">163252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">165047 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.Withmini</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">165834 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">171856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifywithdrawal</span>
+                <span class="method-start">173803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifybalancelow</span>
+                <span class="method-start">180483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyministatement</span>
+                <span class="method-start">182438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifybalance</span>
+                <span class="method-start">185403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifycustomizedstatement</span>
+                <span class="method-start">187592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifycusstatementwithhigherfromdate</span>
+                <span class="method-start">190407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">192886 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoGuru.last</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">open</span>
+                <span class="method-start">193733 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">199591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifywithdrawal</span>
+                <span class="method-start">201792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifycustomercanlogin</span>
+                <span class="method-start">207932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cont</span>
+                <span class="method-start">210290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">214254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">214768 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -43,7 +43,7 @@ public class Editcustomer {
 	@Test(priority=2)
 	public void newcustomer1() {
 		
-		key.newcustomer1(br, "rfxcxbv", "11/06/1254", "kkxbcd", "kakod", "kakod", "670662", "5454855447", "ntb@gxvc.com", "anybody123");
+		key.newcustomer1(br, "rfxcikxbv", "11/06/1254", "kkxbcd", "kakod", "kakod", "670662", "5454855447", "ntikb@gxvc.com", "anybody123");
 		System.out.println("Customer id1:"+keyworddata.keyworduserid1);
 
 	}

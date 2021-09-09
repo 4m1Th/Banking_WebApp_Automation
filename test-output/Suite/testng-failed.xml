@@ -3,13 +3,21 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="DemoGuru.Editcustomer">
+      <class name="DemoGuru.Deposit">
         <methods>
-          <include name="verify_editcustomer"/>
+          <include name="login"/>
           <include name="open"/>
           <include name="close"/>
         </methods>
-      </class> <!-- DemoGuru.Editcustomer -->
+      </class> <!-- DemoGuru.Deposit -->
+      <class name="DemoGuru.DeleteCustomer">
+        <methods>
+          <include name="close"/>
+          <include name="deletecustomer_accountexist"/>
+          <include name="open"/>
+          <include name="customerdelete_withnoaccount"/>
+        </methods>
+      </class> <!-- DemoGuru.DeleteCustomer -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
